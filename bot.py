@@ -3,7 +3,7 @@ import os
 import re
 
 #Input domain
-domain = input("Digite o domínio alvo: ")
+domain = input("Enter the target name: ")
 
 #Run Subfinder to find subdomains
 subfinder_cmd = f"subfinder -d {domain} -o subdomains.txt"
