@@ -1,7 +1,5 @@
 Subdomain Enumeration and Testing Script
 
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.flaticon.com%2Ffree-icon%2Ffinding_5683719&psig=AOvVaw2gd0WqWMXiUvVCop3wKM5U&ust=1753385009272000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCOC2k_HZ044DFQAAAAAdAAAAABAE
-
 This script automates the process of subdomain enumeration, IP resolution, port validation, and HTTP status code 200 checks for a target domain. It leverages several popular security tools like subfinder, dnsx, naabu, and httpx to gather and analyze information.
 Tools Used
 
@@ -41,7 +39,7 @@ Installation
 
     Clone the repository to your local directory:
 
-git clone https://github.com/your-username/subdomain-enumeration-script.git
+git clone https://github.com/secrets4152/BotRecon.git
 cd subdomain-enumeration-script
 
     Ensure that you have the necessary dependencies to run the script. If you have pip installed, you can verify everything is ready by running:
@@ -55,7 +53,7 @@ How to Use
 
 To run the script, simply execute the Python file in your terminal. The script will prompt you to input the target domain and will automatically carry out the following steps:
 
-python3 subdomain_enumeration.py
+python3 BotRecon.py
 
 2. What Does the Script Do?
 
@@ -105,8 +103,20 @@ If you encounter any issues or wish to improve the script, feel free to open an 
 
     Open a pull request.
 
-## License
+License
 
-This project is licensed under the **WTFPL** License.
+This project is licensed under the WTFPL License:
 
-See more about it [here](https://en.wikipedia.org/wiki/WTFPL).
+           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+                   Version 2, December 2004
+
+Copyright (C) 2004 Sam Hocevar
+
+Everyone is permitted to copy and distribute verbatim or modified
+copies of this license document, and changing it is allowed as long as
+the name is changed.
+
+           DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+  TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION, AND MODIFICATION
+
+  0. You just DO WHAT THE FUCK YOU WANT TO.
