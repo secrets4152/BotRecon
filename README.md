@@ -1,4 +1,4 @@
-Subdomain Enumeration and Testing Script
+##Subdomain Enumeration and Testing Script
 
 This script automates the process of subdomain enumeration, IP resolution, port validation, and HTTP status code 200 checks for a target domain. It leverages several popular security tools like subfinder, dnsx, naabu, and httpx to gather and analyze information.
 Tools Used
@@ -11,9 +11,9 @@ Tools Used
 
     HTTPX: A tool for performing HTTP tests, checking for 200 status codes and taking screenshots of subdomains.
 
-Requirements
+##Requirements
 
-Before running the script, you need to make sure the following tools are installed on your system:
+##Before running the script, you need to make sure the following tools are installed on your system:
 
     subfinder:
 
@@ -35,7 +35,7 @@ Before running the script, you need to make sure the following tools are install
 
         Make sure Python is installed on your system.
 
-Installation
+##Installation
 
     Clone the repository to your local directory:
 
@@ -48,7 +48,7 @@ pip install -r requirements.txt
 
     Note: The requirements.txt file can be created based on the Python libraries you use in the script, like subprocess, os, and re (which are already part of Python's standard library).
 
-How to Use
+##How to Use
 1. Running the Script
 
 To run the script, simply execute the Python file in your terminal. The script will prompt you to input the target domain and will automatically carry out the following steps:
@@ -103,7 +103,7 @@ If you encounter any issues or wish to improve the script, feel free to open an 
 
     Open a pull request.
 
-License
+##License
 
 This project is licensed under the WTFPL License:
 
